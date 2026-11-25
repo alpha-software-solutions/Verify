@@ -57,8 +57,6 @@
          an API the generator actually needs.
          https://learn.microsoft.com/en-us/visualstudio/extensibility/roslyn-version-support -->
     <VerifyRoslynVersion>4.4</VerifyRoslynVersion>
-    <Verify_SponsorshipExemption>OpenSource</Verify_SponsorshipExemption>
-    <Verify_SponsorshipExemptionUntil>2027-08</Verify_SponsorshipExemptionUntil>
   </PropertyGroup>
   <!-- This directory contains two solutions (Verify.slnx and VerifyDangling.slnx), so Verify cannot
        auto-discover the solution when a project is built outside of a solution context. Default to the

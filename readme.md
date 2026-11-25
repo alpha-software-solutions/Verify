@@ -24,36 +24,7 @@ matches the test name. On the next test execution, the result is again serialize
 test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be
 updated to the new result.<!-- endInclude -->
 
-> [!IMPORTANT]
-> **Open Source Maintenance Fee.** Every version released after 1 September 2026 is covered by a maintenance fee for organizations that generate revenue, and for government agencies. The source code remains open and free. [Details below](#open-source-maintenance-fee).
-
 **See [Milestones](../../milestones?state=closed) for release notes.**
-
-
-## Open Source Maintenance Fee
-
-This project participates in the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org). The source code stays freely available under the terms of the [license](license.txt). The fee covers the use of the official binary releases, the packages published to NuGet, by organizations that generate revenue from them. Every version released after 1 September 2026 is covered; versions released on or before that date are not.
-
-The fee is paid by [sponsoring VerifyTests](https://github.com/sponsors/VerifyTests) at the monthly tier matching the size of the organization:
-
-| Organization size | Fee (USD) |
-|---|---|
-| Fewer than 40 employees | [$5/month](https://github.com/sponsors/VerifyTests/sponsorships?tier_id=645063) |
-| 40 to 200 employees | [$20/month](https://github.com/sponsors/VerifyTests/sponsorships?tier_id=645064) |
-| 200 to 1000 employees | [$30/month](https://github.com/sponsors/VerifyTests/sponsorships?tier_id=645065) |
-| More than 1000 employees | [$100/month](https://github.com/sponsors/VerifyTests/sponsorships?tier_id=651172) |
-
-From v33, sponsorship is verified at build time by [SponsorCheck](https://github.com/SimonCropp/SponsorCheck). **Nothing phones home: the check runs inside the build, adds no runtime dependency to the packages, and issues no license keys.** A sponsoring organization declares its account once, in a `Directory.Build.props` at the root of the repository, and that covers every project and every Verify package:
-
-```xml
-<PropertyGroup>
-  <Verify_GitHubSponsorAccount>your-github-account</Verify_GitHubSponsorAccount>
-</PropertyGroup>
-```
-
-Each Verify version bundles the sponsor list as it stood when that version was packed, so a sponsorship that began later also needs `<Verify_SponsorshipStart>yyyy-MM-dd</Verify_SponsorshipStart>` until the next upgrade. A sponsorship made private on GitHub is never bundled, so it also needs `<Verify_SponsorshipPrivateUntil>yyyy-MM</Verify_SponsorshipPrivateUntil>`, set at most 12 months out and renewed when it lapses.
-
-Who the fee applies to, paying by invoice, and the other declarations (exemptions, private arrangements, opting out) are covered in [Open Source Maintenance Fee](/docs/maintenance-fee.md). The [SponsorCheck setup wizard for Verify](https://simoncropp.github.io/SponsorCheck/package/Verify) generates the exact snippet for any of them.
 
 
 ## Supporters
@@ -1165,8 +1136,7 @@ Browser testing via
   * [FSharp Usage](/docs/fsharp.md)
   * [Compared to ApprovalTests](/docs/compared-to-approvaltests.md)
   * [AI Usage](/docs/ai-usage.md)
-  * [Plugins](/docs/plugins.md)
-  * [Open Source Maintenance Fee](/docs/maintenance-fee.md)<!-- endInclude -->
+  * [Plugins](/docs/plugins.md)<!-- endInclude -->
 
 
 ## Icon

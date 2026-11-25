@@ -52,4 +52,3 @@
   * [Compared to ApprovalTests](/docs/compared-to-approvaltests.md)
   * [AI Usage](/docs/ai-usage.md)
   * [Plugins](/docs/plugins.md)
-  * [Open Source Maintenance Fee](/docs/maintenance-fee.md)
